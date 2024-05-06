@@ -63,3 +63,4 @@ Deployment consists of the following steps:
 - To install the dependencies, run the following command: `npm ci`.
 - To build the application, run the following command: `npm run build`.
 - To deploy the static assets, FTP the contents of the `build` directory from step 4 to the appropriate destination. `index.html` should be served for all GET requests. You may use any technology for serving static assets (e.g. nginx).
+# exercise-devops-client
