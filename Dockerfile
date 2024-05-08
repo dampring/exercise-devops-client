@@ -4,7 +4,7 @@ FROM node:14.21.3-bullseye as build-stage
 # Set environment variables
 ARG DEBIAN_FRONTEND=noninteractive
 ARG PORT="80" 
-ENV REACT_APP_API_URL=${REACT_APP_API_URL}
+ENV REACT_APP_API_URL="http://localhost:5000"
 ENV SKIP_PREFLIGHT_CHECK=${SKIP_PREFLIGHT_CHECK:-true}
 ENV PORT=${PORT}
 

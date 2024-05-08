@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 
 const apiUrl = process.env.REACT_APP_API_URL;
+console.log(apiUrl);
 
 class App extends Component {
   state = {
