@@ -4,6 +4,7 @@ metadata:
   name: exercise-devops-client
   annotations:
     github.com/project-slug: dampring/exercise-devops-client
+    backstage.io/tachdocs-ref: dir:.
 spec:
   type: other
   lifecycle: development
