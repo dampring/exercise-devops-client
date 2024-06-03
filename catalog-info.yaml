@@ -6,5 +6,5 @@ metadata:
     github.com/project-slug: dampring/exercise-devops-client
 spec:
   type: other
-  lifecycle: unknown
-  owner: guests
+  lifecycle: development
+  owner: dampring
